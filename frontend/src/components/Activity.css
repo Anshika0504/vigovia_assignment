@@ -1,0 +1,47 @@
+.activity-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.activity-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.activity-title span {
+  color: #6532a1;
+}
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.activity-table th,
+.activity-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.activity-table th {
+  background-color: #6532a1;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.terms-note {
+  margin: 20px 0;
+}
+
+.terms-note span {
+  color: #6532a1;
+}
+
+.footer-info {
+  font-size: 14px;
+  color: #333;
+  margin-top: 40px;
+}

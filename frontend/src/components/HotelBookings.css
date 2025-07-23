@@ -1,0 +1,68 @@
+.hotel-booking-container {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.hotel-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.hotel-title span {
+  color: #6b46c1;
+}
+
+.hotel-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.hotel-table th,
+.hotel-table td {
+  border: 1px solid #ccc;
+  padding: 12px 14px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.hotel-table th {
+  background-color: #f3f2f7;
+  color: #4b2aad;
+  font-weight: 600;
+}
+
+.hotel-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.hotel-notes {
+  font-size: 13px;
+  color: #555;
+  margin-top: 15px;
+}
+
+.hotel-notes ol {
+  padding-left: 20px;
+}
+
+.hotel-notes li {
+  margin-bottom: 5px;
+}
+
+.footer-info {
+  font-size: 20px;
+  margin-top: 25px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  color: #444;
+}
+.div1{
+  display: flex;
+  margin-left: 1050px;
+  font-size: 15px;
+}
