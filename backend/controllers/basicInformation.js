@@ -1,6 +1,6 @@
-let basicInfoArray = []; // In-memory array
+let basicInfoArray = []; 
 
-// POST: Receive and store data in memory only
+
 exports.setBasicInfo = (req, res) => {
   const basicInfo = req.body;
 
@@ -13,7 +13,7 @@ exports.setBasicInfo = (req, res) => {
   res.status(200).json({ message: 'Basic info received and stored in memory.' });
 };
 
-// GET: Return the in-memory array
+
 exports.getBasicInfo = (req, res) => {
   res.status(200).json(basicInfoArray);
 };

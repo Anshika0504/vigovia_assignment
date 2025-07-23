@@ -14,13 +14,13 @@ const Itinerary = () => {
   ];
 
   useEffect(() => {
-    // Fetch itinerary
+    
     fetch('http://localhost:5000/itinerary')
       .then(res => res.json())
       .then(data => setItinerary(Array.isArray(data) ? data : [data]))
       .catch(err => console.error('Failed to fetch itinerary data:', err));
 
-    // Fetch flights
+    
     fetch('http://localhost:5000/flight')
       .then(res => res.json())
       .then(data => setFlights(Array.isArray(data) ? data : [data]))
@@ -70,7 +70,7 @@ const Itinerary = () => {
                         <li key={`act-${i}`}>{act.description} ({act.time})</li>
                       ))}
 
-                    {/* Flights */}
+
                     {getFlightsForDay(day.date, slot).map((flight, i) => (
                       <li key={`flight-${i}`}>
                         ✈️ {flight.from} ➝ {flight.to} — Flight {flight.flight} at {flight.Time}

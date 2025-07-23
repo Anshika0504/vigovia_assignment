@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
 
 exports.generatePDF = async (req, res) => {
   try {
-    const data = req.body; // form data sent from frontend
+    const data = req.body; 
 
     const html = await ejs.renderFile(
       path.join(__dirname, '../views/template.ejs'),
@@ -19,7 +19,7 @@ exports.generatePDF = async (req, res) => {
     const pdfBuffer = await page.pdf({ format: 'A4' });
     await browser.close();
 
-    // Save PDF to /pdfs
+    
     const filePath = path.join(__dirname, '../pdfs', 'itinerary.pdf');
     fs.writeFileSync(filePath, pdfBuffer);
 

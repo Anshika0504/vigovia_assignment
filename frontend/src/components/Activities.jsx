@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Activity.css'; // Create CSS for styling like the screenshot
+import './Activity.css'; 
 
 const Activities = () => {
   const [activities, setActivities] = useState([]);
@@ -44,7 +44,7 @@ const Activities = () => {
 
       <div className="terms-note">
         <p><strong>Terms and <span>Conditions</span></strong></p>
-        <a href="#">View all terms and conditions</a>
+        <a href="/">View all terms and conditions</a>
       </div>
 
       <div className="footer-info">
